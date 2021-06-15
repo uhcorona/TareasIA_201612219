@@ -23,7 +23,7 @@ function test(states) {
 
 var states = ["A", "DIRTY", "DIRTY"];
 
-window.setInterval(dirtthings, Math.floor(Math.random() * 15000) + 8000);
+window.setInterval(dirtthings, Math.floor(Math.random() * 7500) + 4000);
 
 function dirtthings() {
 	states[1] = Math.round(Math.random() * 1) == 0 ? "CLEAN" : "DIRTY";
